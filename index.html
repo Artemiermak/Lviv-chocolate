@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Artem Iermak">
+    <title>Lviv chocolate manufactory</title>
+<!--
+    Web site:           http://http://candylvivartem.azurewebsites.net/
+    File name:          index.html
+    File description:   college assignment #2 COMP1054 Web user interface design
+    Author:             Artem Iermak
+    Date:               April 2016
+-->
+
+<!-- ============ Normalize CSS ============ -->
+    <link rel="stylesheet" type="text/css" href="content/css/normalize.css" >
+
+<!-- ============ Bootstrap =========== == -->
+    <link rel="stylesheet" href="content/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="content/css/bootstrap-theme.min.css" >
+
+<!-- ============ Own CSS style ============ -->
+    <link rel="stylesheet" type="text/css" href="content/style.css" >
+
+    <!--[if lte IE 11]>
+    <p>Will see what    I make special for IE</p>
+   <style type="text/css">
+        body header nav ul li {padding: 0; width: 120px;}
+        body header nav {width:70%;}
+        background-color: {yellowgreen;}
+    </style>
+    <![endif]-->
+
+  </head>
+  <body>
+    <header>
+<!-- ============== START OF NAVIGATION FLEX CONTAINER =============== -->
+        <div>
+            <a href="about.html">
+                <img src="content/images/logo.png" alt="About page" />
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://www.chocolate.lviv.ua/uk/company/about/" title="About">About</a></li>
+                <li><a href="http://www.chocolate.lviv.ua/uk/shop/" title="Products">Products</a></li>
+                <li><a href="http://www.chocolate.lviv.ua/uk/company/gallery/" title="Gallery">Gallery</a></li>
+                <li><a href="http://www.chocolate.lviv.ua/uk/contacts" title="Contacts">Contacts</a></li>
+            </ul>
+        </nav>
+
+    </header>
+<!-- ============== START OF MAIN FLEX CONTAINER =============== -->
+    <main>
+<!-- local navigation -->
+      <nav> <!-- some other products -->
+        <h3>Try also:</h3>
+        <ul class="nav nav-pills nav-stacked">
+          <li> <a href="http://www.chocolate.lviv.ua/uk/shop/tafli/">Tafli
+          </a></li>
+          <li> <a href="http://www.chocolate.lviv.ua/uk/shop/fihurky/">Figures
+          </a></li>
+          <li> <a href="http://www.chocolate.lviv.ua/uk/shop/shokolad-dlya-doroslykh/">For adult
+          </a></li>
+        </ul>
+      </nav>
+
+<!-- Section with images -->
+      <section id="images">
+        <h2>Thumbnails made of dark chocolate, A4</h2>
+        <p>The chocolate handmade thumbnail. It makes on demand by our masters  from your image or portret.</p>
+        <p>Base: dark chocolate. Surface: white chocolate. Author appliances: artistic chocolate carving.</p>
+        <figure>
+            <img id="choco1" src="content/images/choco1.png" alt="Thumbnail photo" >
+        </figure>
+        <figure>
+            <img id="choco2" src="content/images/choco3.png" alt="Thumbnail pack photo" >
+        </figure>
+        <div>
+          <p></p>
+        </div>
+      </section>
+<!-- Nutrition section -->
+      <section id="nutrition">
+      <h3>Nutrition</h3>
+        <p>The content of cocoa beans: 55.7%;
+        <br>
+        content of cocoa butter 28%.
+        <br>
+        Best before: 4 months after production.
+        <br>
+        Storage conditions: store at the temperature of (18 ± 3) °C and relative humidity not more than 75%.</p>
+      </section>
+
+<!-- About Lviv -->
+      <article>
+        <h2>Quick facts about Lviv - a home of - <q>Lviv chocolate manufactory</q></h2>
+        <figure>
+            <img src="content/images/lviv3_opt.jpg" alt="Lviv city photo">
+            <!-- image credit:
+            http://travel.tickets.ua.s3.amazonaws.com/upload_post_images/e67eecf0ca844bd510ca62420eb53769.jpg -->
+        </figure>
+        <p><b>Geographical position.</b> Lviv is situated in the western part of Ukraine just 70 km from the Europe Union border and 160 km from the eastern Carpathian Mountains. <br>
+        <b>Population</b> — 757,500 people. It is the 7th largest Ukrainian city in terms of population. <br>
+        <b>Area</b> — 182.01 km2. <br>
+        <b>The first record</b> of Lviv as a city was made in chronicles in 1256. <br>
+        <b>Founder of Lviv</b> — King Danylo Halytskyi, who named the city in honor of his son Lev. <br>
+        <b>The cultural capital of Ukraine.</b> The historic city center (120 ha) is on the UNESCO World Heritage List. The city has unique architecture preserved throughout the centuries. <br>
+        <b>Lviv’s climate</b> is humid continental with soft winters, wet springs, mild summers, warm and dry autumns. The average temperatures are –3.4°C in winter, +17.5 °C in summer and +11 °C in the nearby mountain regions.</p>
+      </article>
+
+    </main>
+    <!-- ============== START OF FOOTER FLEX CONTAINER =============== -->
+    <footer>
+        <p>2016, &copy; Lviv chocolate manufactory. All rights reserved.</p>
+        <p><small><i>Web site author: Artem Iermak</i></small></p>
+
+    <!-- ====== Social networks ====== -->
+        <aside>
+             <a href="https://www.facebook.com/" title="Facebook">
+                <img src="content/images/logos/facebook_icon.png" alt="Facebook logo"  />
+            </a>
+            <a href="https://twitter.com" title="Twitter">
+                <img src="content/images/logos/twitter_icon.png" alt="Twitter logo"  />
+            </a>
+            <a href="https://mail.google.com/" title="Gmail">
+                <img src="content/images/logos/gmail_icon.png" alt="Gmail logo"  />
+            </a>
+            <a href="https://www.instagram.com/" title="Instagram">
+                <img src="content/images/logos/instagram-icon.png" alt="Instagram logo" />
+            </a>
+            <a href="https://www.linkedin.com/" title="<Linkedin">
+                <img src="content/images/logos/linkdin_logo.png" alt="Linkedin logo"  />
+            </a>
+            <a href="www.skype.com" title="Skype">
+                <img src="content/images/logos/skype_icon.png" alt="Skype logo" />
+            </a>
+        </aside>
+    </footer>
+  </body>
+</html>
